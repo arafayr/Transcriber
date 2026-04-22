@@ -2,6 +2,8 @@ from pydantic_settings import BaseSettings
 from functools import lru_cache
 import os
 
+#new file
+
 
 class Settings(BaseSettings):
     groq_api_key: str = ""
